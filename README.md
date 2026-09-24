@@ -1,0 +1,2 @@
+# CART498-GenAI
+CART498 Concordia Fall 2026
