@@ -1,0 +1,11 @@
+prompt:
+ at the center the shilloete of a face sitswarped perspective, out of place peices, bent buildings towering overglowing connective threads dangle overheadfrom the threads hang balloons made of nature
+
+negative prompt:
+ realistic
+
+seed:
+ 11031111
+
+model:
+ stabilityai/sd-turbo
