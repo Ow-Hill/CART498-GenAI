@@ -1,0 +1,10 @@
+﻿n = 4, i = 9
+I got this wrong because I copied the first number as the answer, instead of actually squaring it. The correct answer is much longer, because when you multiply two huge numbers, the result is even huger—my answer was just the original number, not the product. Oops, classic “just repeat the input” blunder. Next time, I’ll let the calculator do the heavy lifting!
+
+
+n = 8, i = 7
+I got this wrong because I gave the order of magnitude for the square of the number, but I actually output the modulus of the secp256k1 curve prime, which is a famous cryptographic constant, instead of the true square. My logic was off because I confused the context—classic case of mixing up cryptography with plain arithmetic. Next time, I’ll keep my primes and my products in separate lanes!
+
+
+n = 10, i = 10
+I got this wrong because I failed to multiply the two gigantic numbers together. Instead, I just copied one of the numbers as the answer, which is mathematically lazy and incorrect. The correct answer should have been the first number multiplied by the second, which would result in a number with twice as many zeros (since multiplying powers of ten adds exponents). In short: I multiplied like a snail on a treadmill—going nowhere fast.
