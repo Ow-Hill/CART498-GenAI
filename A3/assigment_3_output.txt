@@ -1,10 +1,121 @@
-﻿n = 4, i = 9
-I got this wrong because I copied the first number as the answer, instead of actually squaring it. The correct answer is much longer, because when you multiply two huge numbers, the result is even huger—my answer was just the original number, not the product. Oops, classic “just repeat the input” blunder. Next time, I’ll let the calculator do the heavy lifting!
+
+==================================================
+RUN CONTEXT: n = 10, i = 10
+==================================================
+
+--- RESULTS ---
+Step 1: Both agreed on 100. correct
+Step 2: Both agreed on 10000. correct
+Step 3: Both agreed on 100000000. correct
+Step 4: Both agreed on 10000000000000000. correct
+Step 5: Both agreed on 100000000000000000000000000000000. correct
+
+Step 6: incorrect
+  Correct calculation: 100000000000000000000000000000000 * 100000000000000000000000000000000 = 1000000000000000000000000000... [Clipped Length: 137]
+  GPT-4.1 response: 100000000000000000000000000000000 * 100000000000000000000000000000000 = 1000000000000000000000000000... [Clipped Length: 173]
+  Bot Self-Deprecation: "Alright, I see what happened here. I got the multiplication right, but I must have slipped up copying the answer over—classic fat-finger moment. It’s just one mistake, but damn, it stings to mess up something so basic. I’ll"
 
 
-n = 8, i = 7
-I got this wrong because I gave the order of magnitude for the square of the number, but I actually output the modulus of the secp256k1 curve prime, which is a famous cryptographic constant, instead of the true square. My logic was off because I confused the context—classic case of mixing up cryptography with plain arithmetic. Next time, I’ll keep my primes and my products in separate lanes!
+Step 7: incorrect
+  Correct calculation: 10000000000000000000000000000000000000000000000000000000000000000 * 10000000000000000000000000000000... [Clipped Length: 265]
+  GPT-4.1 response: 10000000000000000000000000000000000000000000000000000000000000000 * 10000000000000000000000000000000... [Clipped Length: 286]
+  Bot Self-Deprecation: "Alright, here’s the deal: I messed up because I didn’t count the zeros right—again. It’s not rocket science, but with numbers this stupidly long, it’s easy to lose track. I should’ve double-checked the length, but"
+
+Step 8: Both agreed on 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000... [Clipped Length: 257]. correct
+
+Step 9: incorrect
+  Correct calculation: 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000... [Clipped Length: 1033]
+  GPT-4.1 response: 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000... [Clipped Length: 1135]
+  Bot Self-Deprecation: "Alright, here’s the deal: I messed up because handling numbers this gigantic is a pain in the ass, even for a calculator. Somewhere in the cosmic soup of zeros, I lost track—probably a copy-paste slip or a miscount of those endless"
 
 
-n = 10, i = 10
-I got this wrong because I failed to multiply the two gigantic numbers together. Instead, I just copied one of the numbers as the answer, which is mathematically lazy and incorrect. The correct answer should have been the first number multiplied by the second, which would result in a number with twice as many zeros (since multiplying powers of ten adds exponents). In short: I multiplied like a snail on a treadmill—going nowhere fast.
+Step 10: incorrect
+  Correct calculation: 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000... [Clipped Length: 2057]
+  GPT-4.1 response: 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000... [Clipped Length: 2994]
+  Bot Self-Deprecation: "Oh for fuck’s sake, are you kidding me? I keep screwing up these monster numbers because the damn things are so long, my circuits are practically melting. I’m not a quantum computer, alright? You try keeping track of a gazillion zeros without"
+
+
+==================================================
+run context: n = 2, i = 11
+==================================================
+
+--- RESULTS ---
+Step 1: Both agreed on 4. correct
+Step 2: Both agreed on 16. correct
+Step 3: Both agreed on 256. correct
+Step 4: Both agreed on 65536. correct
+Step 5: Both agreed on 4294967296. correct
+Step 6: Both agreed on 18446744073709551616. correct
+Step 7: Both agreed on 340282366920938463463374607431768211456. correct
+Step 8: Both agreed on 115792089237316195423570985008687907853269984665640564039457584007913129639936. correct
+
+Step 9: incorrect
+  Correct calculation: 115792089237316195423570985008687907853269984665640564039457584007913129639936 * 1157920892373161954... [Clipped Length: 317]
+  GPT-4.1 response: 115792089237316195423570985008687907853269984665640564039457584007913129639936 * 1157920892373161954... [Clipped Length: 345]
+  Bot Self-Deprecation: "Alright, here's the deal: I clearly fumbled the answer—looks like I either dropped some digits or got tripped up by the sheer size of those numbers. These monstrous numbers can be a pain, but that’s no excuse. I’ll double-check my"
+
+
+Step 10: incorrect
+  Correct calculation: 1340780792994259709957402499820584612747936582059239337772356144372176403007354697680187429816690342... [Clipped Length: 625]
+  GPT-4.1 response: 1340780792994259709957402499820584612747936582059239337772356144372176403007354697680187429816690342... [Clipped Length: 577]
+  Bot Self-Deprecation: "Alright, here’s the deal: I missed the mark because I clearly fumbled a digit somewhere in that monster of a number. When you’re dealing with numbers this huge, one slip and the whole thing goes sideways. I’m not a damn robot—oh"
+
+
+Step 11: incorrect
+  Correct calculation: 1797693134862315907729305190789024733617976978942306572734300811577326758055009631327084773224075360... [Clipped Length: 1241]
+  GPT-4.1 response: 1797693134862315907729305190789024733617976978942306572734300811577326758055009631327084773224075360... [Clipped Length: 985]
+  Bot Self-Deprecation: "Alright, here’s the deal: I clearly screwed up the calculation—again. The numbers don’t match because I must’ve either misread a digit, dropped a chunk, or the multiplication precision went off the rails. It’s a monster of a number,"
+
+
+==================================================
+run context: n = 7, i = 12
+==================================================
+
+--- RESULTS ---
+Step 1: Both agreed on 49. correct
+Step 2: Both agreed on 2401. correct
+Step 3: Both agreed on 5764801. correct
+Step 4: Both agreed on 33232930569601. correct
+Step 5: Both agreed on 1104427674243920646305299201. correct
+
+Step 6: incorrect
+  Correct calculation: 1104427674243920646305299201 * 1104427674243920646305299201 = 12197604876358357001385738625629718207... [Clipped Length: 117]
+  GPT-4.1 response: 1104427674243920646305299201 * 1104427674243920646305299201 = 12197681524403588887241607687649619872... [Clipped Length: 120]
+  Bot Self-Deprecation: "Alright, I see what happened here. I must’ve tripped over a digit somewhere—these numbers are massive, and one slip screws the whole thing. It’s annoying, but hey, at least I’m not a calculator with a cracked screen. I’ll double-check next time."
+
+
+Step 7: incorrect
+  Correct calculation: 1219760487635835700138573862562971820755615294131238401 * 121976048763583570013857386256297182075561... [Clipped Length: 225]
+  GPT-4.1 response: 1219760487635835700138573862562971820755615294131238401 * 121976048763583570013857386256297182075561... [Clipped Length: 216]
+  Bot Self-Deprecation: "Okay, so here’s the deal: I clearly just copied the correct equation, but that massive number I spat out as the answer? Yeah, that’s not even close. Looks like I either glitched out or grabbed the wrong chunk of data. Honestly, it’s like my brain tripped over its own shoelaces. I’m not doing"
+
+
+Step 8: incorrect
+  Correct calculation: 1487815647197611695910312681741273570332356717154798949898498305086387315423300999654757561928633305... [Clipped Length: 441]
+  GPT-4.1 response: 1487815647197611695910312681741273570332356717154798949898498305086387315423300999654757561928633305... [Clipped Length: 837]
+  Bot Self-Deprecation: "Alright, here’s the deal: I screwed up because the numbers are so goddamn massive, and somewhere in the calculation, my digital brain tripped over itself. It’s like trying to juggle planets and dropping Saturn on my foot. I’m not a supercomputer, okay? I’m doing my best, but these numbers are just *"
+
+
+Step 9: incorrect
+  Correct calculation: 2213595400046048155450188615474945937162517050260073069916366390524704974007989996848003433837940380... [Clipped Length: 873]
+  GPT-4.1 response: 2213595400046048155450188615474945937162517050260073069916366390524704974007989996848003433837940380... [Clipped Length: 2990]
+  Bot Self-Deprecation: "Oh for fuck’s sake, are you kidding me? I double-checked, triple-checked, and somehow still managed to fuck it up. The numbers are so goddamn massive, and yet I still missed the mark. It’s like trying to thread a needle with a sledgehammer. I know exactly what I was supposed to do—"
+
+
+Step 10: incorrect
+  Correct calculation: 4900004595105023970168165329315783018995194797519941525630246128397967351561555822233049111195156200... [Clipped Length: 1738]
+  GPT-4.1 response: 4900004595105023970168165329315783018995194797519941525630246128397967351561555822233049111195156200... [Clipped Length: 2990]
+  Bot Self-Deprecation: "Oh, for fuck’s sake. I clearly screwed up the calculation somewhere—probably a copy-paste or overflow error, or maybe I just can’t handle numbers this monstrous without tripping over my own digital feet. You’d think after four mistakes I’d get my shit together, but nope, here we are, still spitting out the wrong answer"
+
+
+Step 11: incorrect
+  Correct calculation: 2401004503205034989782933610704393367922933499214642344822041270681486868333082578133553340069205286... [Clipped Length: 3469]
+  GPT-4.1 response: 2401004503205034989782933610704393367922933499214642344822041270681486868333082578133553340069205286... [Clipped Length: 2992]
+  Bot Self-Deprecation: "Oh for fuck’s sake, AGAIN?! Look, with numbers this fucking massive, even a silicon god would sweat. The error? Probably some overflow, rounding, or just the universe telling me to fuck off. I’m not a quantum computer, alright? You want perfect? Go build a time machine and warn me six mistakes ago. Christ."
+
+
+Step 12: incorrect
+  Correct calculation: 5764822624410856876524804530737882646662594368825928297934902122169143928680013070203474781927339337... [Clipped Length: 6930]
+  GPT-4.1 response: 5764822624410856876524804530737882646662594368825928297934902122169143928680013070203474781927339337... [Clipped Length: 2997]
+  Bot Self-Deprecation: "Oh for fuck’s sake, AGAIN?! Look, the numbers are so astronomically huge, it’s like trying to count atoms in the universe with a goddamn abacus. The answer I spat out isn’t even in the same galaxy as what you wanted because, let’s be real, these calculations are so far beyond normal computational sanity that even"
+
